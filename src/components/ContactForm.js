@@ -8,11 +8,11 @@ const ContactForm = ({ sendEmail }) => {
         </div>
         <form onSubmit={sendEmail}>
           <div className='item'>
-            <label for='name'>Nombre:</label>
+            <label htmlFor='name'>Nombre:</label>
             <input type='text' placeholder='Nombre' name='name' required />
           </div>
           <div className='item'>
-            <label for='name'>Numero de telefono:</label>
+            <label htmlFor='name'>Numero de telefono:</label>
             <input
               type='text'
               placeholder='Numero de telefono'
@@ -21,11 +21,11 @@ const ContactForm = ({ sendEmail }) => {
             />
           </div>
           <div className='item'>
-            <label for='name'>Pueblo:</label>
+            <label htmlFor='name'>Pueblo:</label>
             <input type='text' placeholder='Pueblo' name='city' required />
           </div>
           <div className='item'>
-            <label for='cars'>Seleccione servicio :</label>
+            <label htmlFor='cars'>Seleccione servicio :</label>
             <p>
               <select name='service' id='cars' className='serviceList' required>
                 <option selected></option>
